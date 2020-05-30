@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Document</title>
+	<style>
+
+	.h1_parent{
+	position: relative;
+
+	}	
+	#h1_child{
+		/* color : red;
+		background-color: pink; */
+		width: 40%;
+		position: fixed;
+		top: 120px;
+	}
+	.h2_parent{
+		position: relative;
+		z-index: -1;
+		margin-top : 400px;
+	}
+	#h2_child{
+		width: 40%;
+		position: absolute;
+		margin-top : 20px;
+	}
+	.c{
+		height: 40%;
+		width : 40%;
+		background-color: none;
+		margin-bottom: 2000px;
+	}
+	</style>
+</head>
+<body>
+	
+	<div class="h1_parent">
+		<img src="https://pngimage.net/wp-content/uploads/2018/06/png-awan-6.png" alt="" id="h1_child">
+	</div>
+	<div class="h2_parent">
+		<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/907368/Rakete.png" alt="" id="h2_child">
+	</div>
+	<div class="c"></div>
+
+</body>
+</html>

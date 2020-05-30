@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>XSS Position</title>
+       <style>
+        div{
+            width: 200px;
+            height: 200px;
+            /* margin : auto; */
+        }
+        .satu{
+            background-color: black;
+            position: fixed;
+            bottom:  0;
+            left :0;
+            width: 100%;
+            height: 50px;
+            padding-left: 200px;
+            display: flex;
+            justify-content: space-around;
+        }
+        .satu p{
+            color : white;
+           
+        }
+        /* .satu h5{
+            color: green;
+        } */
+        .dua{
+            background-color: chartreuse;
+            /* position: absolute; 
+            top : 0; */
+        }
+        .tiga{
+            background-color: chocolate;
+            margin-bottom: 3000px;
+        }
+        .box{
+            width: 600px;
+            height: 600px;
+            border : 5px solid green;
+            /* position: relative; */
+        }
+        </style>
+</head>
+
+<body>
+    <h1>CSS Position</h1>
+    <!-- <p>1. Static </p>
+    <p>2. Relattive</p>
+    <p>2. Absolute</p>
+    <p>4. Fixed</p> -->
+    <div class="box">
+    <div class="satu">
+        <p>MENU 1</p>
+        <p>Menu 2</p>
+    </div>
+    <div class="dua"></div>
+    <div class="tiga"></div>
+</div>
+</body>
+</html>
