@@ -1,0 +1,17 @@
+h3{
+    color : red;
+}
+
+/* Responsive dengan Media Query */
+@media(max-width : 925px){
+    h3{
+        color : blue;
+    }
+}
+
+@media(max-width : 825px){
+    h3{
+        color : green;
+    }
+}
+
